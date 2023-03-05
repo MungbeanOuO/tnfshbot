@@ -2,11 +2,8 @@ import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 import discord
+import constants
 
-
-# 設定 Discord bot 的 token 和聊天頻道 ID
-DISCORD_TOKEN = 'aaaaaaaaaaaa'
-DISCORD_CHANNEL_ID = 1145141919810
 intents = discord.Intents().all()
 
 # 設定網站 URL
@@ -42,7 +39,7 @@ async def update_announcement():
     
     # 取得指定聊天頻道的物件
     print('Getting Discord channel...')
-    channel = client.get_channel(DISCORD_CHANNEL_ID)
+    channel = client.get_channel(constants.DISCORD_CHANNEL_ID)
 
     # 發送訊息到指定聊天頻道
     print('Sending message to Discord channel...')
@@ -69,5 +66,5 @@ async def on_ready():
         await asyncio.sleep(UPDATE_INTERVAL)
 
 # 啟動 Discord bot 客戶端
-client.run(DISCORD_TOKEN)
+client.run(constants.DISCORD_TOKEN)
 
