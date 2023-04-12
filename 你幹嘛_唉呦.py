@@ -46,7 +46,10 @@ async def update_announcement():
 
     # 建立 Discord 訊息
     message = ''
-    for item in items:
+    # 以下修改為只顯示前五則
+    for i, item in enumerate(items):
+        if i >= 5:
+            break
         message = item.get_text().strip()
         if not message:
             print("Announcement message is empty, skipping...")
