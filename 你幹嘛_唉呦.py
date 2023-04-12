@@ -54,8 +54,9 @@ async def update_announcement():
         if not message:
             print("Announcement message is empty, skipping...")
         else:
-            await channel.send(message)
-
+            if "置頂" in message: # 讓置頂更好看
+                message = f"[{message[:2]}] {message[2:]}"
+            await channel.send(message) 
 
 # 當 Discord bot 客戶端啟動時執行
 @client.event
