@@ -1,7 +1,7 @@
 # tnfshbot
 A forwarding robot made suddenly.
-## 食油餅嗎?
-記得
+## Runtime Environment
+tnfsh can run on any platforms which can run python without a database or complicated system configuration. As a lightweight bot system, you only need python and some requirement to run it.
 ```
 pip install asyncio aiohttp bs4 discord
 ```
