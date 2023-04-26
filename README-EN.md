@@ -1,5 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-繁體中文 | English
+[繁體中文](https://github.com/MungbeanOuO/tnfshbot "homepage") | English
 # tnfshbo
 A bot post TNFSH's announcement to discord channel.
 ## Runtime Environment
