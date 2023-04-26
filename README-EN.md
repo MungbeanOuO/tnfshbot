@@ -1,5 +1,7 @@
-# tnfshbot
-A forwarding robot made suddenly.
+[![Contributors][contributors-shield]][contributors-url]
+繁體中文 | English
+# tnfshbo
+A bot post TNFSH's announcement to discord channel.
 ## Runtime Environment
 tnfsh can run on any common platforms without a database or complicated system configuration. As a lightweight bot system, you only need python and some requirements to run it.
 Install Python first, and run it.
