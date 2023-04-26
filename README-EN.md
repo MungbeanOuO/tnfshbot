@@ -1,6 +1,6 @@
 [繁體中文](https://github.com/MungbeanOuO/tnfshbot "homepage") | English
-# tnfshbo
-A bot post TNFSH's announcement to discord channel.
+# tnfshbot
+A bot posting TNFSH's announcement to discord channel.
 ## Runtime Environment
 tnfsh can run on any common platforms without a database or complicated system configuration. As a lightweight bot system, you only need python and some requirements to run it.
 Install Python first, and run it.
