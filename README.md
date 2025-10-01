@@ -1,3 +1,4 @@
+繁體中文 | [English](https://github.com/MungbeanOuO/tnfshbot/blob/main/README-EN.md "ENver")
 # tnfshbot
 A forwarding robot made suddenly.
 ## 食油餅嗎?
